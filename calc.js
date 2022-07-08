@@ -1,8 +1,6 @@
 let fieldInput = document.getElementById("inputCalc");
 let buttonSub = document.getElementById("buttonSub");
-buttonSub.click(function (){
-    prepareData();
-})
+
 function prepareData(){
     let inpText = fieldInput.innerHTML;
     $.ajax({
